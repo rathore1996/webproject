@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myVOTE.info</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/afterlogin.css">
+</head>
+
+<body>
+
+  {{!-- mmain div start here --}}
+  <div class="maindiv">
+     {{!-- navigation bar is starting from here --}}
+    <div class="navbar">
+      <p class="siteName">myVOTE.info</p>
+      <p class="navigation">
+        <a href="/myprofile" id="profile" name="name" class="myprofile">{{username}}</a>
+        <a href="/task" class="task">my task</a>
+        <a href="/updateInfo" class="update">update profile</a>
+        <a href="/logout" class="logout">log out</a>
+      </p>
+    </div>
+{{!-- main body cantext start from here --}}
+    <div class="container">
+      <div class="cover_img">
+        <div class="profil_img">
+          <a href="eddimage" class="add_image">&#9998;</a>
+        </div>
+        <p class="authoe_name">{{username}}</p>
+      </div>
+    </div>
+    {{!-- containers start from here --}}
+<div class="container_two">
+  <div class="cards">
+    <div class="card">
+      <img src="/img/bhagwarakshak.jpg"  alt="personal" />
+      <div class="profile_info">
+        <span class="profile_type" >This is a personal profile</span>
+        <h3 class="profile_name">{{username}}</h3>
+        <a href="http://localhost:8000/search/9399486852"><button>Add Friend+</button></a>
+      </div>
+    </div>
+  </div>
+
+
+<div class="cards">
+    <div class="card">
+      <img src="/img/bhagwarakshak.jpg"  alt="personal" />
+      <div class="profile_info">
+        <span class="profile_type" >This is a personal profile</span>
+        <h3 class="profile_name">{{username}}</h3>
+        <a href="http://localhost:8000/search/9399486852"><button>Add Friend+</button></a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="cards">
+    <div class="card">
+      <img src="/img/bhagwarakshak.jpg"  alt="personal" />
+      <div class="profile_info">
+        <span class="profile_type" >This is a personal profile</span>
+        <h3 class="profile_name">{{username}}</h3>
+        <a href="http://localhost:8000/search/9399486852"><button>Add Friend+</button></a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="cards">
+    <div class="card">
+      <img src="/img/bhagwarakshak.jpg"  alt="personal" />
+      <div class="profile_info">
+        <span class="profile_type" >This is a personal profile</span>
+        <h3 class="profile_name">{{username}}</h3>
+        <a href="http://localhost:8000/search/9399486852"><button>Add Friend+</button></a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+ </div>
+  <script src="js/afterlogin.js"></script>
+</body>
+
+</html>

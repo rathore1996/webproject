@@ -1,0 +1,72 @@
+.container{
+    border: 2px solid whitesmoke;
+    width: 100%;
+    height: fit-content;
+}
+.cover_img{
+    border: 10px solid whitesmoke;
+    width: 90%;
+    margin: auto;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url("/img/proud.jpg");
+    background-size: 100%  350px;
+
+}
+.profil_img{
+    background-image: url("/img/iamhindu.jpg");
+    background-size:300px 300px;
+    border: 10px solid whitesmoke;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 150px;
+    position: relative;
+}
+.authoe_name{
+    color: whitesmoke;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    word-spacing: 1.5rem;
+    letter-spacing: .5rem;
+}
+.add_image{
+    position: absolute;
+    /* text-decoration: none; */
+    color: whitesmoke;
+    font-size: 24px;
+    top: 244px;
+    left: 134px;
+    
+}
+.container_two{
+    border: 10px solid white;
+    width: 400px;
+    height: fit-content;
+    margin-top: 185px;
+    margin-left:50px ;
+    background-color: blanchedalmond;
+}
+.cards{
+    border: 5px solid wheat;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: aquamarine;
+}
+.card{
+    border: 2px solid black;
+    width:180px ;
+    height: 280px;
+    margin: auto;
+    margin-top: 10px;
+}
+.card img{
+    width: 175px;
+    height: 180px;
+    margin: auto;
+}

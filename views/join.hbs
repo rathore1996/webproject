@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    {{>navbar}}
+    <div class="register_form">
+        <h1 id="voterbookheading">VOTERBOOK</h1>
+        <p class="quote1">IT's quick and easy <br>
+        your action will effect nothing <br>
+        but your vote will effect everything</p>
+        <form action="/register" class="formForRegister" method="post">
+         <input type="text" name="name" class="input" id="voterName" style="text-transform: capitalize" value="" placeholder="--ENTER YOUR NAME--">
+         <input type="text" name="mothername" class="input" id="motherName" value="" placeholder="--MOTHER NAME--">
+         <input type="text" name="fathername" class="input" id="fatherName" value="" placeholder="--FATHER NAME--">
+         <input type="text" name="village" class="input" id="villageName" style="text-transform: capitalize" value="" placeholder="--VILLAGE NAME--">
+         <input type="number" name="pincode" class="input" id="pinCodeNumber" value="" placeholder="--PINCODE--">
+         <input type="text" name="post" class="input" id="postName" style="text-transform: capitalize" value="" placeholder="---POST---">
+         <input type="text" name="district" class="input" id="districtName" style="text-transform: capitalize" value="" placeholder="--DISTRICT-- ">
+         <input type="text" name="state" class="input"   id="stateName" style="text-transform: capitalize" value="" placeholder="--STATE--">
+         <input type="number" name="phone" class="input"  id="phoneNumber" value="" placeholder="--PHONE NUMBER--">
+         <input type="email" name="email" class="input"  id="emailId" value="" placeholder="---EMAIL--">
+         <input type="password"  class="input" name="password" id="phoneNumber" value="" placeholder="---password---">
+         <input type="password" class="input"  name="cpassword" id="phoneNumber" value="" placeholder="---confirm password---">
+         <input type="submit" value="submit" id="submitButton">
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

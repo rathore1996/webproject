@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    {{>navbar}}
+    <div class="login_form">
+        <h1 id="voterbookheading">VOTERBOOK</h1>
+        <p class="quote1">IT's quick and easy <br>
+        your action will effect nothing <br>
+        but your vote will effect everything</p>
+        <form action="/login" class="formForRegister" method="post">
+         <input type="number" name="phone" id="phoneNumber" value="" placeholder="--PHONE NUMBER--">
+         <input type="password" name="password" id="phoneNumber" value="" placeholder="---password---">
+         <input type="submit" value="submit" id="submitButton">
+        </form>
+    </div>
+</body>
+</html>

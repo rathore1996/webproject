@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(34, 34, 151, 0.377);
+    background-image:url("/img/om.jpg");
+    background-size: 5%;
+    background-repeat: repeat;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: rgb(11, 53, 78);
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+    margin: .5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+.navbar a:hover{
+    /* border: 1px solid black; */
+    background-color: rgba(5, 185, 14, 0.651);
+    border-radius: 10px;
+}
+.siteName{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 95, 21);
+}
+
+/* join us page css */
+.register_form,.login_form,.password_update{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    height:fit-content;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px rgba(216, 73, 17, 0.932);
+    /* border: 2px solid black; */
+    background-image: url("/img/bhagwarakshak.jpg");
+    background-size: cover;
+    background-position: 100%;
+     
+}
+.register_form input,.login_form input,.password_update input{
+    color: black;
+    width: 350px;
+    height: 30px;
+    margin-top: .5rem;
+    text-align: center;
+    opacity: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px rgba(216, 73, 17, 0.932);
+}
+.register_form input:hover,.login_form input:hover{
+    opacity: 100%;
+    background-color: rgba(255, 95, 21, 0.527);
+}
+#motherName,#fatherName{
+    text-transform: capitalize;
+    width: 170px;
+}
+#fatherName{
+    margin-left: 5px;
+}
+#pinCodeNumber{
+    width: 150px;
+}
+#postName{
+    width: 195px;
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+#submitButton{
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 16px;
+    width: 200px;
+    margin-top: 20px;
+    /* margin-left: 100px; */
+}
+#submitButton:hover{
+    background-color: rgba(255, 95, 21, 0.527);
+}
+#voterbookheading{
+    color: rgb(255, 95, 21);
+}
+.quote1{
+    color: rgba(216, 73, 17, 0.932);
+}
+/* login page css */
+.login_form,.password_update{
+    height: 500px;
+   padding-top: 25px;
+}
+.login_form input,.password_update input{
+    margin-top: 25px;
+}
