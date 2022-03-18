@@ -63,7 +63,7 @@ app.get("/update",auth,(req,res)=>{
     res.render("update.hbs");
 })
 app.get("/updateinfo",auth,async(req,res)=>{
-    res.render("updateinfo.hbs" );
+    res.render("updateinfo.hbs");
 })
 // GET REQUESTS FOR API
 
